@@ -1,0 +1,36 @@
+.time {
+    margin-top: 33px;
+
+    font-family: Sansation, serif;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 72px;
+    text-align: center;
+}
+
+.warning {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 2px auto;
+    width: 132px;
+    height: 20px;
+
+    border-radius: 100px;
+
+    font-weight: 500;
+    font-size: 11px;
+
+    text-align: center;
+}
+
+.warningRed {
+    background: var(--warning-red);
+    color: var(--secondary-color);
+}
+
+.warningYellow {
+    background: var(--warning-yellow);
+    color: var(--primary-color);
+}

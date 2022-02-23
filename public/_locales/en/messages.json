@@ -1,0 +1,46 @@
+{
+  "appName": {
+    "message": "Prayer Schedule",
+    "description": "App name"
+  },
+  "appDescription": {
+    "message": "Prayer Schedule for Muslims",
+    "description": "Description app"
+  },
+  "cityNotFound": {
+    "message": "City not found",
+    "description": "Displayed if there is no user location data"
+  },
+  "openSettings": {
+    "message": "Open settings"
+  },
+  "timeLeft": {
+    "message": "$timeleft$ $timeWord$ left",
+    "description": "Prayer time warning sign",
+    "placeholders": {
+      "timeWord": {
+        "content": "$2",
+        "example": "Minute, minutes"
+      },
+      "timeleft": {
+        "content": "$1",
+        "example": "1 to 10 minutes"
+      }
+    }
+  },
+  "fajr": {
+    "message": "Fajr"
+  },
+  "dhuhr": {
+    "message": "Dhuhr"
+  },
+  "asr": {
+    "message": "Asr"
+  },
+  "maghrib": {
+    "message": "Maghrib"
+  },
+  "isha": {
+    "message": "Isha"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "appName": {
+    "message": "Prayer Schedule",
+    "description": "Название приложения"
+  },
+  "appDescription": {
+    "message": "Расписание молитв для мусульман",
+    "description": "Описание приложения"
+  },
+  "cityNotFound": {
+    "message": "Город не найден",
+    "description": "Отображается, если нет данных о местоположении пользователя"
+  },
+  "openSettings": {
+    "message": "Открыть настройки",
+    "description": "Открыть настройки"
+  },
+  "timeLeft": {
+    "message": "Осталось $timeleft$ $timeWord$",
+    "description": "Плашка с предупреждением об оставшемся времени до молитвы",
+    "placeholders": {
+      "timeWord": {
+        "content": "$2",
+        "example": "Минута, минуты, минут"
+      },
+      "timeleft": {
+        "content": "$1",
+        "example": "от 1 до 10 минут"
+      }
+    }
+  },
+  "fajr": {
+    "message": "Фаджр"
+  },
+  "dhuhr": {
+    "message": "Зухр"
+  },
+  "asr": {
+    "message": "Аср"
+  },
+  "maghrib": {
+    "message": "Магриб"
+  },
+  "isha": {
+    "message": "Иша"
+  }
+}

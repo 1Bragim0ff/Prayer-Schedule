@@ -1,0 +1,28 @@
+.settings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 0;
+
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 11px;
+
+    width: 100%;
+    height: 23px;
+
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.settingsRoot {
+    position: relative;
+}
+
+.spacer {
+    width: 100%;
+    height: 23px;
+}

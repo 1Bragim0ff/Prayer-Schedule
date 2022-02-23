@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+/* Fonts */
+
+@font-face {
+    font-family: 'Sansation';
+    src: url('fonts/Sansation-Light.eot');
+    src: local('Sansation Light'), local('SansationLight'),
+    url('fonts/Sansation-Light.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Sansation-Light.woff') format('woff'),
+    url('fonts/Sansation-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+    font-family: 'Rubik';
+    src: url('fonts/Rubik-Light.eot');
+    src: url('fonts/Rubik-Light.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Rubik-Light.woff2') format('woff2'),
+    url('fonts/Rubik-Light.woff') format('woff'),
+    url('fonts/Rubik-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+    font-family: 'Rubik';
+    src: url('fonts/Rubik-Medium.eot');
+    src: url('fonts/Rubik-Medium.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Rubik-Medium.woff2') format('woff2'),
+    url('fonts/Rubik-Medium.woff') format('woff'),
+    url('fonts/Rubik-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+    font-family: 'Rubik';
+    src: url('fonts/Rubik-Regular.eot');
+    src: url('fonts/Rubik-Regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Rubik-Regular.woff2') format('woff2'),
+    url('fonts/Rubik-Regular.woff') format('woff'),
+    url('fonts/Rubik-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
-.App-link {
-  color: #61dafb;
+
+/* -/Fonts */
+
+/* Variables */
+
+:root {
+    --primary-color: #C67450;
+    --secondary-color: #FFFFFF;
+    --warning-red: #D74548;
+    --warning-yellow: #FFEE67;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* -/Variables */
+
+/* Default values */
+
+:root {
+    font-family: Rubik, sans-serif;
+
+    min-width: 330px;
+    min-height: 450px;
+
+    max-width: 330px;
+    max-height: 450px;
+
+    color: var(--secondary-color);
 }
+
+body {
+    background: url("images/bg.jpg") center center/cover no-repeat;
+}
+
+/* -/Default values */

@@ -1,0 +1,42 @@
+.schedule {
+    display: grid;
+
+    grid-template-columns: repeat(2, 142px);
+    grid-row-gap: 9px;
+    grid-column-gap: 14px;
+
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    min-width: 142px;
+    height: 45px;
+
+    padding: 0 15px;
+
+    background: var(--primary-color);
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+.cardName {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.cardTime {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.cardBig {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
